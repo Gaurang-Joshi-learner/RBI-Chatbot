@@ -78,7 +78,7 @@ The system combines:
                     User Query
                          │
                          ▼
-               Streamlit Frontend
+               React.js Frontend
                          │
                          ▼
                   FastAPI Backend
@@ -88,7 +88,7 @@ The system combines:
   Vector Search      LLM Service      Monitoring
        │                 │
        ▼                 ▼
-   ChromaDB /       Ollama / LLM
+                    Ollama / LLM
    FAISS Store
        │
        ▼
@@ -132,7 +132,6 @@ Embedding Generation
 
 ## Step 3: Vector Storage
 
-* ChromaDB
 * FAISS
 * Semantic Indexing
 * Similarity Search
@@ -176,9 +175,9 @@ Grounded Response
 
 ## Frontend
 
-* Streamlit
+* React.js
 * HTML/CSS
-* Plotly
+* Typescript
 * Pandas
 
 ---
@@ -204,7 +203,7 @@ Grounded Response
 
 ## Vector Database
 
-* ChromaDB / FAISS
+*  FAISS
 
 ---
 
@@ -226,35 +225,7 @@ Grounded Response
 
 ---
 
-# 📂 Project Structure
 
-```text
-rbi-chatbot/
-│
-├── backend/
-│   ├── api/
-│   ├── services/
-│   ├── rag/
-│   ├── vector_store/
-│   ├── monitoring/
-│   └── main.py
-│
-├── frontend/
-│   ├── dashboard.py
-│   ├── components/
-│   └── utils/
-│
-├── data/
-│   ├── circulars/
-│   ├── regulations/
-│   └── policy_documents/
-│
-├── embeddings/
-│
-├── logs/
-│
-└── README.md
-```
 
 ---
 
